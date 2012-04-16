@@ -17,10 +17,10 @@ if not hasattr(fuse, '__version__'):
 
 fuse.fuse_python_api = (0, 2)
 
-output = open("hello.log", "w")
+output = open("hello.log", "w", 0)
 sys.stdout = output
 sys.stderr = output
-
+    
 def get_content(path):
     if path == '/':
         return ""
