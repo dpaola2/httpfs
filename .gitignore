@@ -1,8 +1,12 @@
-bbfs/bbfs
+B1;2cbbfs/bbfs
 bbfs/*.o
+bbfs/bbfs
 bbfs/*.log
 pyhttpfs/.Python
 pyhttpfs/bin
 pyhttpfs/lib
 pyhttpfs/include
 pyhttpfs/build
+pyhttpfs/share
+pyhttpfs/*.log
+pyhttpfs/*.pyc
